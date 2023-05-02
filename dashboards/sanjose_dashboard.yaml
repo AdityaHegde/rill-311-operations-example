@@ -1,0 +1,32 @@
+# Visit https://docs.rilldata.com/references/project-files to learn more about Rill project files.
+
+title: "sanjose_dashboard"
+model: "sanjose_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: "Date Created"
+measures:
+  - label: Total records
+    expression: count(*
+    name: total_records
+    description: Total number of records present
+    format_preset: humanize
+dimensions:
+  - label: Subject
+    property: Subject
+    description: ""
+  - label: Status
+    property: Status
+    description: ""
+  - label: Source
+    property: Source
+    description: ""
+  - label: Category
+    property: Category
+    description: ""
+  - label: Service Type
+    property: Service Type
+    description: ""
+  - label: Department
+    property: Department
+    description: ""
