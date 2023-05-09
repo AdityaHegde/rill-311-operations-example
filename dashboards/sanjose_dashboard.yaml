@@ -7,7 +7,7 @@ smallest_time_grain: ""
 timeseries: "Date Created"
 measures:
   - label: Total records
-    expression: count(*
+    expression: count(*)
     name: total_records
     description: Total number of records present
     format_preset: humanize
