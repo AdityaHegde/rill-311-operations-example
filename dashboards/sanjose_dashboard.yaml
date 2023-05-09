@@ -15,6 +15,7 @@ dimensions:
   - label: Status
     property: Status
     description: ""
+    ignore: true
   - label: Source
     property: Source
     description: ""
