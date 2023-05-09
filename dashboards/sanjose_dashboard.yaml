@@ -12,9 +12,6 @@ measures:
     description: Total number of records present
     format_preset: humanize
 dimensions:
-  - label: Subject
-    property: Subject
-    description: ""
   - label: Status
     property: Status
     description: ""
