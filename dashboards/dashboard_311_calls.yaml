@@ -18,6 +18,7 @@ dimensions:
   - label: "Status Type"
     property: "status_type"
     description: ""
+    ignore: true
   - label: City
     property: city
     description: ""
