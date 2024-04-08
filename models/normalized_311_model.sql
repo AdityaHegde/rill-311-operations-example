@@ -7,7 +7,7 @@ SELECT
   'Oakland' AS city,
   'CA' AS state,
   DATETIMEINIT AS start_event_date,
-  STRPTIME(DATETIMECLOSED, '%M/%d/%Y %I:%M:%S %p') AS end_event_date,
+  DATETIMECLOSED AS end_event_date,
   REPLACE(SPLIT(REQADDRESS,',')[1], '(','') AS longitude,
   REPLACE(SPLIT(REQADDRESS,',')[2], ')','') AS latitude,
   REQUESTID AS ticket_id,
